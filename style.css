@@ -1,0 +1,66 @@
+:root {
+  --mainpink: #a306b6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  background-color: var(--mainpink);
+}
+
+header span {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 8px;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+  color: #fff;
+  padding-left: 8px;
+  font-size: 20px;
+  padding-bottom: 8px;
+}
+
+main {
+  background-color: #f7f4f4;
+}
+
+main section {
+  position: relative;
+}
+
+main section h1 {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  color: #fff;
+  font-size: 50px;
+}
+
+main article h2 {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+main article {
+  width: 50%;
+  margin: auto;
+}
+
+footer {
+  background-color: var(--mainpink);
+  color: #fff;
+  padding: 12px;
+}
