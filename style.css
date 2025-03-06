@@ -33,14 +33,14 @@ header ul {
 }
 
 main {
-  background-color: #f7f4f4;
+  background-color: #b7b5b5;
 }
 
-main section {
+header section {
   position: relative;
 }
 
-main section h1 {
+header section h1 {
   position: absolute;
   top: 40%;
   left: 40%;
@@ -48,15 +48,28 @@ main section h1 {
   font-size: 50px;
 }
 
-main article h2 {
+main section {
+  width: 50%;
+  margin: auto;
+}
+
+main section h2 {
   font-weight: bold;
   font-size: 20px;
   padding: 20px 0;
 }
 
-main article {
-  width: 50%;
-  margin: auto;
+main section div {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+main section div article {
+  grid-column: span 1;
+  font-weight: bold;
+  padding: 16px 0;
+  background-color: #fff;
 }
 
 footer {
